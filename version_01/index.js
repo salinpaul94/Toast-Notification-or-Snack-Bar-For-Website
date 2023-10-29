@@ -9,4 +9,11 @@ function showToast(message) {
   toast.classList.add("toast");
   toast.innerHTML = message;
   toastBox.appendChild(toast);
+
+  if(message.includes("error")){
+    toast.classList.add("error");
+  }
+  if(message.includes("Invalid")){
+    toast.classList.add("invalid")
+  }
 }
