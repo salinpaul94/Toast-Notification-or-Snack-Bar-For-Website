@@ -1,6 +1,10 @@
 let toastBox = document.getElementById("toastBox");
 
-function showToast(message){
+let successMsg = "Successfully submitted";
+let errorMsg = "Please fix the error";
+let invalidMsg = "Invalid input, check again";
+
+function showToast(message) {
   let toast = document.createElement("div");
   toast.classList.add("toast");
   toast.innerHTML = message;
