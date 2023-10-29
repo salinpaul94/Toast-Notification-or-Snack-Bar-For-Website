@@ -7,3 +7,17 @@
 body{
   background: #f7edff;
 }
+.buttons{
+  margin: 50px;
+}
+.buttons button{
+  background: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 120px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
